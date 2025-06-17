@@ -8,9 +8,9 @@ import path from "path";
 dotenv.config();
 
 cloudinary.v2.config({
-  cloud_name: process.env.Cloud_Name,
-  api_key: process.env.Cloud_Api,
-  api_secret: process.env.Cloud_Secret,
+  cloud_name: process.env.cloud_name,
+  api_key: process.env.cloud_API,
+  api_secret: process.env.cloud_secret,
 });
 
 const app = express();
